@@ -1,0 +1,21 @@
+{
+     "name": "SkipToSubscriptions",
+     "description": "An extension to navigate directly to the subscription page of youtube",
+     "version": "1.0",
+     "manifest_version": 3,
+     "background": {
+          "service_worker": "background.js"
+     },
+     "permissions": ["storage", "activeTab", "scripting"],
+     "action": {
+          "default_popup": "index.html"
+     },
+     "content_scripts": [
+          {
+               "run_at": "document_end",
+               "matches": ["*://*.youtube.com/"],
+               "exclude_matches": [ "*://*.youtube.com/feed/subscriptions" ],
+               "js": ["skip.js"]
+          }
+     ]
+}
