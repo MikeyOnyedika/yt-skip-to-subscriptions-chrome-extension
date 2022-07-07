@@ -1,9 +1,9 @@
 # yt-skip-to-subscriptions-chrome-extension
-## This extension makes sure that whenever you visit youtube.com, you are directed to the Subscription page and not the Home page.
+Automatically performs a redirect to your subscription feed whenever you open youtube.com
 
 ## Motivation for the Project
-I think the Home page can sometimes be a  distraction (for me atleast). I just want to see stuff that I subscribed to (stuffs that I actually care about) immediately I 
-open youtube and not some stuff the YT Algorithm suggests me. The project is not close to being finished, it just does the bare minimum (with alot of bugs).
+Most times, I just want to see videos from channels that I subscribed to (stuffs that I actually care about) immediately I 
+open youtube and not some stuff the YT Algorithm suggests me. That's the whole idea of this project. The project is not close to being finished, it just does the bare minimum (with alot of bugs).
 
 ## How to install this chrome extension (Running the project locally)
 - clone the repo by running  `git clone https://github.com/MikeyOnyedika/yt-skip-to-subscriptions-chrome-extension.git`
